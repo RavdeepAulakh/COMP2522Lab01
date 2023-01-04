@@ -17,3 +17,7 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+dependencies {
+    implementation fileTree(dir: 'library', include: ['*.jar'])
+}
